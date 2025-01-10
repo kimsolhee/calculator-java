@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.calculator' // 그룹 ID를 설정
+version = '1.0.0' // 버전 정보
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21) // Java 21 버전 선택
+    }
+}
+
+repositories {
+    mavenCentral() // Maven 중앙 저장소 활성화
+}
+
+dependencies {
+    // 필요한 라이브러리 의존성을 추가
+}
